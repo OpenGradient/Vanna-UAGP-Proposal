@@ -79,7 +79,9 @@ We currently have experimented with an OP-stack based testnet (currently used in
 
 Vanna is building an Arbitrum Orbit Chain and bring the power of trustless AI and ML inference to the Arbitrum ecosystem, and we’re super excited to start with tackling use-cases we’ve already researched for Uniswap’s AMMs.
 
-Vanna is a blockchain network that settles on Arbitrum, and will be able to utilize cross-chain messages to communicate with Uniswap on Arbitrum via ArbOS precompiles.
+Vanna is a blockchain network that settles on Arbitrum, and will be able to utilize cross-chain messages to communicate with Uniswap on Arbitrum via ArbOS precompiles. The ArbOS precompiles are able to thus, expose the inference results compute on Vanna to the Uniswap contracts on Ethereum to adjust the fees dynamically within the AMM pools.
+
+<Architecture Diagram>
 
 Here is a demo of our testnet running an on-chain fee calculation model.
 
@@ -161,7 +163,7 @@ We want to create a positive sum game for Vanna x Uniswap, here are some benefit
 2. <b>Opening doors to AI on Uniswap</b>
 	- The Vanna x Uniswap integration opens the doors to new quant research and ML engineering talent that may be interested in building sophisticated models to help improve the initial fee calculation model, or build out other sophisticated models to help build more features or solve other problems on Uniswap. Examples:
 		- Systematic trading strategies 
-		- AI-driven smart execution strategies
+		- AI-driven smart execution
 		- Models to predict trade toxicity for varying trading fees
 		- Using HMM market regime models to vary fees in different market environments
 		- Incorporate AI-generated credit scores to vary fees
