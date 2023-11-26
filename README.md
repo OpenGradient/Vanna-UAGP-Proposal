@@ -71,7 +71,7 @@ Our goals for UAGP are four-fold:
 
 <b><u>Vanna Blockchain</b></u>:
 
-We currently have experimented with an OP-stack based testnet (currently used internally for testing and experimentation):
+We currently have experimented with a blockchain testnet (currently used internally for testing and experimentation):
 - RPC Endpoint: [http://dev-rpc.vannalabs.ai:9545](http://dev-rpc.vannalabs.ai:9545)
 - Explorer url: [http://dev-rpc.vannalabs.ai:4000](http://dev-rpc.vannalabs.ai:4000)
 - ChainID: 901
