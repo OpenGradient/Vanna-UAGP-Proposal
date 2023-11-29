@@ -83,7 +83,7 @@ Vanna is a blockchain network that settles on Arbitrum, and will be able to util
 
 <Architecture Diagram>
 
-Here is a demo of our testnet running an on-chain fee calculation model.
+[Here is a demo of our testnet running an on-chain fee calculation model.](https://drive.google.com/file/d/1cRb3HNAH88VSRqKRlgwKyNJvdmB3Uaj5/view?usp=sharing)
 
 <b><u>Vanna's AMM Experimentation</b></u>:
 
@@ -215,7 +215,7 @@ For Arbitrum, we’d like to unlock doors to new tools, technology, and paradigm
 For Uniswap, we’d like to improve the user experience through intelligent features that can lead to protected user liquidity, more efficiency, and an increased frictionless experience; but more importantly, we’d like to create the tooling necessary for developers and researchers to continue iterating on use-cases of AI with Vanna for Uniswap’s AMMs.
 
 <b><u>Vanna Labs Links</b></u>:
-* Vanna Labs Demo
+* [Vanna Testnet Demo](https://drive.google.com/file/d/1cRb3HNAH88VSRqKRlgwKyNJvdmB3Uaj5/view?usp=sharing)
 * [Vanna Labs Twitter](https://twitter.com/0xVannaLabs)
 * [Vanna Labs Github](https://github.com/orgs/VannaLabs/repositories)
 * Vanna Labs Article: [The State of Blockchain x AI Inference](https://medium.com/vanna-labs/the-state-of-blockchain-x-ai-inference-c0e386356d49) 
