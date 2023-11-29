@@ -63,7 +63,7 @@ Our goals for UAGP are four-fold:
 	- Using market regime models (like Hidden Markov Models) to vary fees in different market environments
 	- Building AI/ML models to measure average toxicity of users’ trades as a way to vary fees using a Uniswap hook.
 	- Exploring collaboration with Spectral Finance to incorporate AI-generated credit scores to reduce fees with a Uniswap hook.
-	- Creating ONNX models for pricing Uniswap derivatives.
+	- Creating ONNX models for pricing derivatives of tokens on Uniswap.
 
 ## Vanna Information
 
@@ -168,7 +168,7 @@ We want to create a positive sum game for Vanna x Uniswap, here are some benefit
 		- Models to predict trade toxicity for varying trading fees
 		- Using HMM market regime models to vary fees in different market environments
 		- Incorporate AI-generated credit scores to vary fees
-		- Creating models for pricing Uniswap derivatives.
+		- Creating models for pricing derivatives of tokens on Uniswap.
 
 3. <b>Opening doors to new applications on Uniswap</b>
 	- Kickstarting the Vanna x Uniswap integration will encourage more intelligent dApps to be developed on Uniswap in the future. AI driven vaults that use Uniswap for trading, ML driven risk management that uses Uniswap to de-risk or hedge portfolio exposure, ETFs that have smart rebalancing…etc.
