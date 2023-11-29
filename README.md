@@ -94,6 +94,8 @@ However, this mechanism doesn’t really exist in DeFi AMMs yet, but one can ima
 
 But why are dynamic fees important? Dynamic fees are important because in periods of high volatility, impermanent loss risk is elevated and opportunistic traders are able to profit by arbitraging the pool and rebalancing the ratio of the assets in the pool; by dynamically increasing fees charged by the AMM pool during these periods of elevated risk, we are able to deter arbitrage activity and/or compensate liquidity providers more (with higher fees) for taking on high-risk order flow. Arbitrageurs are a net harm to an AMM because when they profit, it incurs impermanent loss on the liquidity providers of the AMM pool.  
 
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*GZgFveapPG23BGUrOCW5Nw.jpeg)
+
 Needless to say, impermanent loss is one of the biggest pain-points of AMMs. [A16z Research introduced the idea of exploitable LVR](https://a16zcrypto.com/posts/article/lvr-quantifying-the-cost-of-providing-liquidity-to-automated-market-makers/), suggesting a new metric for benchmarking the “performance” of an AMM by quantifying the amount of net profit the AMM exposes to opportunistic arbitrageurs. There is also [published research](https://arxiv.org/abs/2111.09192?ref=hackernoon.com) that shows that for [more than half of Uniswap V3 liquidity providers](https://hackernoon.com/half-of-uniswap-v3-users-lose-money-heres-why), they lose more money via impermanent loss than they profit from fees.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*auvql7rBAWRski5z.png)
