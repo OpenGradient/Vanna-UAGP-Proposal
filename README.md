@@ -82,7 +82,8 @@ Vanna is building an Arbitrum Orbit Chain and bring the power of trustless AI an
 Vanna is a blockchain network that settles on Arbitrum, and will be able to utilize cross-chain messages to communicate with Uniswap on Arbitrum via ArbOS precompiles. The ArbOS precompiles are able to thus, expose the inference results compute on Vanna to the Uniswap contracts on Ethereum to adjust the fees dynamically within the AMM pools.
 
 <Architecture Diagram>
-
+![](https://raw.githubusercontent.com/VannaLabs/Vanna-UAGP-Proposal/main/VannaTXFlow.jpg)
+	
 [Here is a demo of our testnet running an on-chain fee calculation model.](https://drive.google.com/file/d/1cRb3HNAH88VSRqKRlgwKyNJvdmB3Uaj5/view?usp=sharing)
 
 <b><u>Vanna's AMM Experimentation</b></u>:
