@@ -9,11 +9,13 @@
 
 <u>Core Team</u>:
 
-<b>Matthew Wang</b> 
+<b>Matthew Wang</b>
 
 - Background: Computer Engineering at Northwestern University
 
 - Experience: Building AI inference on decentralized infrastructure at Vanna Labs + research engineering in options market-making at Two Sigma.
+
+- Focus: Project Supervisor + Vanna Infrastructure
 
 <b>Manav Aggarwal</b> 
 
@@ -21,11 +23,15 @@
 
 - Experience: Protocol/infrastructure engineering at Celestia + data infrastructure engineering at Two Sigma.
 
+- Focus: Vanna Infrastructure + Arbitrum Integration
+
 <b>Tony Lee</b> 
 
 - Background: Computer Science at Northwestern University
 
 - Experience: Quantitative research in crypto market-making at Ava Labs + quantitative options trader at Susquehanna International Group (SIG).
+
+- Focus: Uniswap LVR Modeling 
 
 <b>Andrew Wang</b> 
 
@@ -33,12 +39,17 @@
 
 - Experience: Machine learning research at Capital One + machine learning engineering at Oracle.
 
+- Focus: Uniswap LVR Modeling
+
 <b>Jeffrey Lin</b> 
 
 - Background: Finance at National Taiwan University
 
 - Experience: Experience building blockchain infrastructure, smart contract development, web3 security auditing, has also won 10+ web3 awards through multiple hackathon projects like ZKAlpha.
 
+- Focus: Uniswap Hook Smart Contracts
+
+  
 <b><u>Project Context</b></u>:
 
 Before diving into our project proposal, articles and concepts to help establish familiarity with relevant subjects:
@@ -208,6 +219,7 @@ We want to create a positive sum game for Vanna x Uniswap, here are some benefit
 	- Deliverables: Technical whitepaper, tweets, medium articles, and technical documentation.
 	- Budget: 35K
 
+For important milestones, we'll be authoring and publishing articles and thought pieces that outline our research, experience, and learnings as well.
 
 <b><u>Conclusion</b></u>:
 
