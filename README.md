@@ -219,7 +219,7 @@ We want to create a positive sum game for Vanna x Uniswap, here are some benefit
 	- Deliverables: Technical whitepaper, tweets, medium articles, and technical documentation.
 	- Budget: 35K
 
-For important milestones, we'll be authoring and publishing articles and thought pieces that outline our research, experience, and learnings as well.
+For important milestones, we'll be authoring and publishing articles and thought pieces that outline our research, experience, and learnings as well. We'll also be tracking these milestones publically in a [Github Project](https://github.com/orgs/VannaLabs/projects/2) for transparency.
 
 <b><u>Conclusion</b></u>:
 
