@@ -90,7 +90,7 @@ Vanna is a blockchain network that settles on Arbitrum, and will be able to util
 
 In quant finance, market-makers typically increase the spreads and widen their quotes during periods of elevated volatility or risk. This makes sense because market makers want to be compensated more for taking on more risk.
 
-However, this mechanism doesn’t really exist in DeFi AMMs yet, but one can imagine a similar mechanism through dynamically adjusting fees for AMM pools depending on the market regime. Uniswap put “dynamic fees based on volatility” as a key feature they’d like to see implemented via hooks in Uniswap V4.
+However, this mechanism doesn’t really exist in DeFi AMMs yet, but one can imagine a similar mechanism through dynamically adjusting fees for AMM pools depending on the market regime. Uniswap put “[dynamic fees based on volatility](https://blog.uniswap.org/uniswap-v4)” as a key feature they’d like to see implemented via hooks in Uniswap V4.
 
 But why are dynamic fees important? Dynamic fees are important because in periods of high volatility, impermanent loss risk is elevated and opportunistic traders are able to profit by arbitraging the pool and rebalancing the ratio of the assets in the pool; by dynamically increasing fees charged by the AMM pool during these periods of elevated risk, we are able to deter arbitrage activity and/or compensate liquidity providers more (with higher fees) for taking on high-risk order flow. Arbitrageurs are a net harm to an AMM because when they profit, it incurs impermanent loss on the liquidity providers of the AMM pool.  
 
