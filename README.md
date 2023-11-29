@@ -104,14 +104,14 @@ We’ve already built a sample proof-of-concept regression model that we have ru
 
 For the experiment model, we obtained orderbook data from the Kraken exchange and trained the model to quote like centralized market-makers. The model regresses different windows of price volatility on the top-of-the-book spread quoted by market-makers on Kraken. In other words, it uses moving-window volatility to predict spreads.
 
+We then ran a simulation and modeled traders as purely opportunistic, in order to benchmark the performance of our spread calculation model. Note that the simulation time period is quite short, and only meant for demonstration purposes, we plan to create a more robust simulation platform as part of UAGP. The green line represents the ETH-USDT price while the red represents the volatility, which is the rolling standard deviation of the price.
+
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*S58TUXZGuoZlkto0bgrS7w.png)
 
-We then ran a simulation and modeled traders as purely opportunistic, in order to benchmark the performance of our spread calculation model. Note that the simulation time period is quite short, and only meant for demonstration purposes, we plan to create a more robust simulation platform as part of UAGP. The green line represents the ETH-USDT price while the red represents the volatility, which is the rolling standard deviation of the price.
+As one can see from the results below, in this simulation, we are able to see the difference in liquidity provider balance increase over time (red: difference between dynamic fee model vs static fee model), especially when the exploitable LVR opportunity (represented as blue bars) was high. Empirically one can observe the dynamic fees protect user liquidity through charging higher fees to arbitrageurs during periods of elevated volatility.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cltuyKc3OmiBXZ84F0j_jg.png)
 
-As one can see from the results above, in this simulation, we are able to see the difference in liquidity provider balance increase over time (red: difference between dynamic fee model vs static fee model), especially when the exploitable LVR opportunity (represented as blue bars) was high. Empirically one can observe the dynamic fees protect user liquidity through charging higher fees to arbitrageurs during periods of elevated volatility.
- 
 The key lies in reducing the net instantaneous exploitable LVR during periods of high volatility by increasing fees
 
 The experiment was part of a hackathon project the Vanna team had worked on, [codebase linked here](https://github.com/jeff0723/VannaSwap). 
