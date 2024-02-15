@@ -1,11 +1,11 @@
 
-## VannaHooks: AI Infrastructure for Uniswap V4
+## Vanna Labs x UAGP: AI Infrastructure for Uniswap V4
 
 <u>Short Description</u>: Building on-chain AI inference infrastructure for the Arbitrum Ecosystem + creating AI-driven Uniswap V4 hooks to reduce AMM impermanent loss.
 
-<u>Category</u>: Uniswap on Arbitrum Ecosystem + Open Contribution
+<u>Category</u>: Open Contribution
 
-<u>Requested Funding</u>: $240,000 ARB
+<u>Requested Funding</u>: $200,000 ARB
 
 <u>Core Team</u>:
 
@@ -13,9 +13,17 @@
 
 - Background: Computer Engineering at Northwestern University
 
-- Experience: Building AI inference on decentralized infrastructure at Vanna Labs + research engineering in options market-making at Two Sigma.
+- Experience: Building AI inference on decentralized infrastructure at Vanna Labs, prev. research engineering in options market-making at Two Sigma.
 
 - Focus: Project Supervisor + Vanna Infrastructure
+
+<b>Adam Balogh</b> 
+
+- Background: Computer Science at Imperial College London
+
+- Experience: Building AI inference on decentralized infrastructure at Vanna Labs, prev. big data infrastructure and AI Platform engineering at Palantir.
+
+- Focus: Vanna Blockchain Infrastructure + Arbitrum Integration
 
 <b>Manav Aggarwal</b> 
 
@@ -23,13 +31,13 @@
 
 - Experience: Protocol/infrastructure engineering at Celestia + data infrastructure engineering at Two Sigma.
 
-- Focus: Vanna Infrastructure + Arbitrum Integration
+- Focus: Vanna Blockchain Infrastructure 
 
 <b>Tony Lee</b> 
 
 - Background: Computer Science at Northwestern University
 
-- Experience: Quantitative research in crypto market-making at Ava Labs + quantitative options trader at Susquehanna International Group (SIG).
+- Experience: Prev. Quantitative research in crypto market-making at Ava Labs + quantitative options trader at Susquehanna International Group (SIG).
 
 - Focus: Uniswap LVR Modeling 
 
@@ -88,7 +96,7 @@ We currently have experimented with a blockchain testnet (currently used interna
 - ChainID: 901
 - Faucet: [https://vanna-faucet.vercel.app/](https://vanna-faucet.vercel.app/)
 
-Vanna is building an Arbitrum Orbit Chain and bring the power of trustless AI and ML inference to the Arbitrum ecosystem, and we’re super excited to start with tackling use-cases we’ve already researched for Uniswap’s AMMs.
+Vanna is building an Arbitrum Nitro and is bringing the power of trustless AI and ML inference to the Arbitrum ecosystem, and we’re super excited to start with tackling use-cases we’ve already researched for Uniswap’s AMMs.
 
 Vanna is a blockchain network that settles on Arbitrum, and will be able to utilize cross-chain messages to communicate with Uniswap on Arbitrum via ArbOS precompiles. The ArbOS precompiles are able to thus, expose the inference results compute on Vanna to the Uniswap contracts on Ethereum to adjust the fees dynamically within the AMM pools.
 
