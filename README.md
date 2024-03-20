@@ -74,7 +74,7 @@ Before diving into our project proposal, articles and concepts to help establish
 The Vanna Labs team is developing blockchain infrastructure to run AI/ML inference trustlessly and natively on-chain. 
 
 Our goals for UAGP are four-fold:
-1. Integrate Vanna’s trustless AI/ML inference features into an Arbitrum Orbit chain to bring the power of inference to the Arbitrum ecosystem. 
+1. Integrate Vanna’s trustless AI/ML inference features into an EVM-based blockchain network to bring the power of inference to the Arbitrum ecosystem. 
 	- We want to make it super easy for developers on Arbitrum to develop intelligent applications that use AI models directly from their smart contracts powered by Vanna. 
 2. Research and integrate AI models that quote dynamic fees into Uniswap V4 hooks to provably reduce impermanent loss for liquidity providers on Uniswap (Arbitrum).
 3. Provide a sandbox ecosystem to allow developers to research and develop their own AI/ML-driven hooks for Uniswap V4.
@@ -139,7 +139,7 @@ The experiment was part of a hackathon project the Vanna team had worked on, [co
 
 ## Arbitrum Ecosystem Impact 
 
-<i>Vanna aims to bring trustless AI/ML to the Arbitrum ecosystem by building an Arbitrum Orbit Chain that can run inference. This would allow for developers within the Arbitrum ecosystem to use Vanna’s infrastructure to leverage sophisticated models in a way that is trustless, secure, and scalable to build sophisticated dApps that are more intelligent.</i>
+<i>Vanna aims to bring trustless AI/ML to the Arbitrum ecosystem by building a decentralized network that can power inference natively. This would allow for developers within the Arbitrum ecosystem to use Vanna’s infrastructure to leverage sophisticated models in a way that is trustless, secure, and scalable to build sophisticated dApps that are more intelligent.</i>
 
 
 ![Vanna's AI use-cases](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*KQNIQ5ZZIs2trWyyvg1v_A.png)
@@ -208,7 +208,7 @@ We want to create a positive sum game for Vanna x Uniswap, here are some benefit
 
 
 <b><u>Milestones</b></u>:
-1. <b>Orbit Chain Development</b> (Months 1-3): Develop blockchain with AI/ML inference features available on-chain, exposed via precompile.
+1. <b>Network Development</b> (Months 1-3): Develop blockchain with AI/ML inference features available on-chain, exposed via precompile.
 	- Deliverable: Working blockchain testnet with secure on-chain AI/ML inference enabled in addition to being able to expose inference cross-chain with Arbitrum and other dApps on Arbitrum. 
 	- Budget: 50K
 2. <b>Data Cleaning, Data Exploration, and Model Research</b> (Months 1-2): Acquire clean market data for key asset pairs and begin data exploration around spread calculation model development.
